@@ -339,6 +339,10 @@ PRODUCT_PACKAGES += \
     WifiOverlayOnyx \
     WifiOverlayOnyxCN
 
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
