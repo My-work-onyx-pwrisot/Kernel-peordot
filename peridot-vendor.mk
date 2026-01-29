@@ -1588,7 +1588,7 @@ PRODUCT_PACKAGES += \
     libsys_info_cache \
     libsystem_health_mon \
     libtaautoload \
-    libtensorflowlite_c_vendor \
+    libtensorflowlite_c \
     libtestutils \
     libthermalclient \
     libthreadutils \
