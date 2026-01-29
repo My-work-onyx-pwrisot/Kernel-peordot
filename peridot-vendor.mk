@@ -1435,6 +1435,8 @@ PRODUCT_PACKAGES += \
     libperfioctl \
     libperipheral_client \
     libpolygon \
+    libprotobuf-cpp-full-21.7 \
+    libprotobuf-cpp-lite-21.7 \
     libq-perflog \
     libqc2audio_base \
     libqc2audio_basecodec \
