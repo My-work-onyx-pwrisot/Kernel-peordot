@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/onyx/device.mk)
 TARGET_HAS_UDFPS := true
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_BLUR := true
+TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_NAME := lineage_onyx
 PRODUCT_DEVICE := onyx
