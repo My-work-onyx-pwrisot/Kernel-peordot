@@ -23,10 +23,6 @@ $(call soong_config_set,rfs,mpss_firmware_symlink_target,modem_firmware)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 
-# GameBar Performance Overlay
-$(call inherit-product, packages/apps/GameBar/gamebar.mk)
-
-
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
