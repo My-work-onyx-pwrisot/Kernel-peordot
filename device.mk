@@ -22,6 +22,10 @@ $(call inherit-product, packages/modules/Virtualization/apex/product_packages.mk
 $(call soong_config_set,rfs,mpss_firmware_symlink_target,modem_firmware)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
+# Automated
+$(call inherit-product, vendor/google/gms/gms-vendor.mk)
+
+
 
 # BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
